@@ -1,0 +1,161 @@
+* {
+    font-size: 2vw;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr,th,td {
+    font-size: 1.5vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row {
+    height: 100vh;
+    min-height: 100%;
+    padding-top: 3vw;
+}
+
+.column {
+    height: 100%;
+    float: left;
+    overflow-x: auto;
+}
+
+.left, .right {
+    width: 25%;
+    background-color: deepskyblue;
+}
+
+.middle {
+    width: 50%;
+    background-color:lightskyblue;
+}
+
+.cardimg {
+    height: 10vw;
+}
+
+.actionButton {
+    width: 40%;
+    height: 25%;
+    margin: 1.5%;
+}
+
+.winnerTable {
+    font-size: 1vw;
+    width: 50%;
+}
+
+#id_logo {
+    font-weight: bold;
+    text-align: center;
+}
+
+#id_zone_playerInfo {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#id_list_status {
+    width: 100%;
+}
+
+#id_text_turnStatus {
+    width: 100%;
+    height: 3vw;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0.5vw;
+    color: white;
+    background-color: black;
+    position:fixed;
+}
+
+#id_zone_table {
+    height: 14vw;
+    padding-top: 1vw;
+    text-align: center;
+}
+
+#id_zone_table_label {
+    width: 50%;
+    display: inline-block;
+}
+
+#id_zone_table_print {
+    width: 100%;
+    height: 10vw;
+    display: inline-block;
+    background-color:darkgreen;
+}
+
+#id_zone_hand {
+    height: 14vw;
+    text-align: center;
+}
+
+#id_zone_hand_label {
+    width: 50%;
+    display: inline-block;
+}
+
+#id_zone_hand_print {
+    width: 50%;
+    height: 10vw;
+    display: inline-block;
+    background-color:darkgreen;
+}
+
+#id_zone_action {
+    height: 15vw;
+    text-align: center;
+    visibility: hidden;
+}
+
+#id_zone_action_label {
+    width: 50%;
+    display: inline-block;
+}
+
+#id_zone_action_input {
+    width: 50%;
+    height: 12vw;
+    display: inline-block;
+    background-color:coral;
+    text-align: center;
+}
+
+#id_zone_otherPlayer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#id_dialog_gameRules {
+    margin-top: -23%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#id_dialog_gameRules_table {
+    font-size: 1vw;
+}
+
+.gameRuleItems {
+    font-size: 1vw;
+}
+
+.buttonStart {
+    width: 100%;
+    margin-top: 20px;
+}

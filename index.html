@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♥♦♣♠SleepyPoker♠♣♦♥</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="id_text_turnStatus">Welcome</div>
+    <dialog id="id_dialog_inputUsername" style="visibility: visible;margin-top: 5%;padding-top: 0;">
+        <p>Please enter your username</p>
+        <input type="text" id="id_input_username">
+        <button id="id_button_submitUsername" onclick="submitUsername()">Submit</button>
+    </dialog>
+    <div class="row">
+        <div class="column left" id="id_zone_playerInfo">
+            <p id="id_logo">♥♦♣♠SleepyPoker♠♣♦♥</p>
+            <table>
+                <tr>
+                    <th colspan="2">Your Information</th>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td id="id_text_playerName">None</td>
+                </tr>
+                <tr>
+                    <td>Player number</td>
+                    <td id="id_text_playerNo">None</td>
+                </tr>
+                <tr>
+                    <td>Wallet</td>
+                    <td id="id_text_playerWallet">None</td>
+                </tr>
+                <tr>
+                    <td>Last action</td>
+                    <td id="id_text_playerLastAction">None</td>
+                </tr>
+            </table><br>
+            <!--<p>Your name: <span id="id_text_playerName"></span></p>
+            <p>Your no: <span id="id_text_playerNo"></span></p>
+            <p>Your wallet: <span id="id_text_playerWallet"></span></p>
+            <p>Your last action: <span id="id_text_playerLastAction"></span></p>-->
+            <button onclick="showGameRules()">Game Rules</button>
+            <dialog id="id_dialog_gameRules">
+                <ol class="gameRuleItems" style="margin-bottom: 0;">
+                    <li class="gameRuleItems">The first player to join the game is host. (Who can start the game) Can only start when has player more than one.</li>
+                    <li class="gameRuleItems">All player starts the game with 1000$.</li>
+                    <li class="gameRuleItems">Minimum bet is 20$.</li>
+                    <li class="gameRuleItems">Every game, player draws 2 cards and the table starts with 3 cards and draws new card at the end of round.
+                        <ul>
+                            <li class="gameRuleItems">1 Deck 52 Cards:  Suits: Spade Heart Diamond Clover</li>
+                            <li class="gameRuleItems">Rank: A K Q J 10 9 8 7 6 5 4 3 2</li>
+                        </ul>
+                    </li>
+                    <li class="gameRuleItems">Players can only take action during their turns.
+                        <ul>
+                            <li class="gameRuleItems">List of actions: Call, Check, Fold, Raise and All-in.</li>
+                            <li class="gameRuleItems">Call - Raise player's bet to equal the current highest bet.</li>
+                            <li class="gameRuleItems">Check - Pass their turn if player's bet is equal to highest bet.</li>
+                            <li class="gameRuleItems">Fold - Forfeit. Can't take any action after this.</li>
+                            <li class="gameRuleItems">Raise - Bet any amount of money that more than the current highest bet.</li>
+                            <li class="gameRuleItems">All-in - Use all of players money to bet. Can't take any action after this.</li>
+                        </ul>
+                    </li>
+                    <li class="gameRuleItems">At final round, players with highest card score win the game. If there are more than one winner, prize will be equally split.
+                        <br><b class="gameRuleItems">Rank of card scores</b> (The score is calculated by using cards from both player hand and table.)
+                        <table>
+                            <tr>
+                                <td class="gameRuleItems">Straight flush</td>
+                                <td class="gameRuleItems">5 cards in sequence with same suit. Highest rank: Royal straight flush: A K Q J 10 with same suit.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">Four of a kind</td>
+                                <td class="gameRuleItems">4 cards with same value.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">Full house</td>
+                                <td class="gameRuleItems">3 cards with same value and 2 cards with same value.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">Flush</td>
+                                <td class="gameRuleItems">5 cards with same suit.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">Straight</td>
+                                <td class="gameRuleItems">5 cards in sequence. Lowest straight: A 2 3 4 5</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">Three of a kind</td>
+                                <td class="gameRuleItems">3 cards with same value.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">Two pairs</td>
+                                <td class="gameRuleItems">4 cards with 2 different pairs.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">One pair</td>
+                                <td class="gameRuleItems">2 cards with same value.</td>
+                            </tr>
+                            <tr>
+                                <td class="gameRuleItems">High card</td>
+                                <td class="gameRuleItems">Comparing the highest card value in descending order: A K Q J 10 9 8 7 6 5 4 3 2 Lowest rank: 2</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="gameRuleItems">If your wallet becomes empty, you will be kicked from the game. (You can rejoin the game after the game restart as a new player).</li>
+                    <li class="gameRuleItems">If you disconnect during the game, your action will be forced to "Fold" and can't reconnect into the game. (You can rejoin the game after the game restart as a new player).</li>
+                </ol>
+                <div style="text-align: center;"><button onclick="closeGameRules()" style="margin-top:2px;">Close</button></div>
+            </dialog>
+        </div>
+        <div class="column middle">
+            <div id="id_zone_table">
+                <div id="id_zone_table_label">Table Card</div><br>
+                <div id="id_zone_table_print"></div>
+            </div>
+            <div id="id_zone_hand">
+                <div id="id_zone_hand_label">Hand Card</div><br>
+                <div id="id_zone_hand_print"></div>
+            </div>
+            <div id="id_zone_action">
+                <div id="id_zone_action_label">Action</div>
+                <div id="id_zone_action_input">
+					<button class="actionButton" onclick="fold()" id="id_button_fold">Fold</button>
+					<button class="actionButton" onclick="check()" id="id_button_check">Check</button><br>
+					<button class="actionButton" onclick="call()" id="id_button_call">Call</button>
+                    <button class="actionButton" onclick="allIn()" id="id_button_allIn">All-In</button><hr style="margin: 0;border-color:black">
+					<button class="actionButton" onclick="raise()" id="id_button_raise">Raise</button>
+					<input class="actionButton" id="id_input_raiseValue" type="number" value = "0" min="0">
+				</div>
+            </div>
+        </div>
+        <div class="column right" id="id_zone_otherPlayer">
+            <button onclick="startGame()" id="id_button_startGame" class="buttonStart" style="visibility: hidden;">Start Game</button>
+            <button onclick="requestRestartGame()" id="id_button_restartGame" class="buttonStart" style="visibility: hidden;">Restart Game</button>
+            <br><br>
+            <table id="id_list_status">
+                <tr>
+                    <th colspan="4">All players' status</th>
+                </tr>
+                <tr>
+                    <th>No.</th>
+                    <th>Username</th>
+                    <th>Last Bet</th>
+                    <th>Last Action</th>
+                </tr>
+            </table><br>
+            <!--<p>All player status:</p>
+            <ul id="id_list_status"></ul>-->
+            <table id="id_zone_winner" style="visibility: hidden;">
+                <tr>
+                    <td class="winnerTable" style="font-weight: bold;">Your highest score</td>
+                    <td class="winnerTable" id="id_text_player_score"></td>
+                </tr>
+                <tr>
+                    <td class="winnerTable" style="font-weight: bold;">Winner Player Number</td>
+                    <td class="winnerTable" id="id_text_winner_playerno"></td>
+                </tr>
+                <tr>
+                    <td class="winnerTable" style="font-weight: bold;">Winner Score</td>
+                    <td class="winnerTable" id="id_text_winner_score"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="card.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
