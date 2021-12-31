@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.7 on win32)" generated="20211126 15:44:29.312" rpa="false" schemaversion="2">
+<suite id="s1" name="Testcase" source="C:\Users\Frost\Desktop\poker-proj\poker_testcase\testcase.robot">
+<test id="s1-t1" name="Test Main Success Case: Initial all user and desktop position">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:29.503" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:29.503" endtime="20211126 15:44:30.616"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:30.617" level="INFO">Typing text 'player1' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:30.617" endtime="20211126 15:44:30.653"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:30.653" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:44:30.653" endtime="20211126 15:44:30.676"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>0</arg>
+<arg>0</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:44:30.676" endtime="20211126 15:44:30.781"/>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<arg>960</arg>
+<arg>540</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20211126 15:44:30.781" endtime="20211126 15:44:30.889"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:30.890" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:30.890" endtime="20211126 15:44:31.988"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:31.989" level="INFO">Typing text 'player2' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:31.989" endtime="20211126 15:44:32.023"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:32.024" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:44:32.024" endtime="20211126 15:44:32.044"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>960</arg>
+<arg>0</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:44:32.044" endtime="20211126 15:44:32.149"/>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<arg>960</arg>
+<arg>540</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20211126 15:44:32.149" endtime="20211126 15:44:32.258"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:32.259" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:32.258" endtime="20211126 15:44:33.330"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player3</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:33.331" level="INFO">Typing text 'player3' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:33.331" endtime="20211126 15:44:33.369"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:33.370" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:44:33.370" endtime="20211126 15:44:33.393"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>0</arg>
+<arg>540</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:44:33.393" endtime="20211126 15:44:33.498"/>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<arg>960</arg>
+<arg>540</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20211126 15:44:33.498" endtime="20211126 15:44:33.606"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:33.607" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:33.606" endtime="20211126 15:44:34.733"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player4</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:34.734" level="INFO">Typing text 'player4' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:34.733" endtime="20211126 15:44:34.773"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:34.775" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:44:34.774" endtime="20211126 15:44:34.803"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>960</arg>
+<arg>540</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:44:34.804" endtime="20211126 15:44:34.909"/>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<arg>960</arg>
+<arg>540</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20211126 15:44:34.910" endtime="20211126 15:44:35.018"/>
+</kw>
+<status status="PASS" starttime="20211126 15:44:29.502" endtime="20211126 15:44:35.019"/>
+</test>
+<test id="s1-t2" name="Test Main Success Case: Startgame">
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:35.020" endtime="20211126 15:44:35.020"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:35.020" level="INFO">Clicking element 'id=id_button_startGame'.</msg>
+<status status="PASS" starttime="20211126 15:44:35.020" endtime="20211126 15:44:35.042"/>
+</kw>
+<status status="PASS" starttime="20211126 15:44:35.019" endtime="20211126 15:44:35.042"/>
+</test>
+<test id="s1-t3" name="Test Main Success Case: All players all in, except host doing fold">
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>4</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:35.044" endtime="20211126 15:44:35.044"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_allIn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:35.045" level="INFO">Clicking element 'id=id_button_allIn'.</msg>
+<status status="PASS" starttime="20211126 15:44:35.045" endtime="20211126 15:44:35.170"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:37.172" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:44:35.171" endtime="20211126 15:44:37.172"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:37.173" endtime="20211126 15:44:37.173"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_fold</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:37.173" level="INFO">Clicking element 'id=id_button_fold'.</msg>
+<status status="PASS" starttime="20211126 15:44:37.173" endtime="20211126 15:44:37.195"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:39.196" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:44:37.195" endtime="20211126 15:44:39.196"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:39.197" endtime="20211126 15:44:39.197"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_allIn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:39.197" level="INFO">Clicking element 'id=id_button_allIn'.</msg>
+<status status="PASS" starttime="20211126 15:44:39.197" endtime="20211126 15:44:39.224"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:41.226" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:44:39.225" endtime="20211126 15:44:41.226"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>3</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:41.226" endtime="20211126 15:44:41.227"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_allIn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:41.228" level="INFO">Clicking element 'id=id_button_allIn'.</msg>
+<status status="PASS" starttime="20211126 15:44:41.227" endtime="20211126 15:44:41.254"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:43.255" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:44:41.254" endtime="20211126 15:44:43.255"/>
+</kw>
+<status status="PASS" starttime="20211126 15:44:35.043" endtime="20211126 15:44:43.256"/>
+</test>
+<test id="s1-t4" name="Test Main Success Case: Game ended -&gt; click on restart game button, close browser">
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>The game is ended.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:44:43.268" level="INFO">Current page contains text 'The game is ended.'.</msg>
+<status status="PASS" starttime="20211126 15:44:43.258" endtime="20211126 15:44:43.268"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:43.269" endtime="20211126 15:44:43.269"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>The game is ended.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:44:43.280" level="INFO">Current page contains text 'The game is ended.'.</msg>
+<status status="PASS" starttime="20211126 15:44:43.269" endtime="20211126 15:44:43.280"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>4</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:43.280" endtime="20211126 15:44:43.280"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>The game is ended.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:44:43.291" level="INFO">Current page contains text 'The game is ended.'.</msg>
+<status status="PASS" starttime="20211126 15:44:43.281" endtime="20211126 15:44:43.291"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:44:43.292" endtime="20211126 15:44:43.292"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>The game is ended.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:44:43.302" level="INFO">Current page contains text 'The game is ended.'.</msg>
+<status status="PASS" starttime="20211126 15:44:43.292" endtime="20211126 15:44:43.302"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:44.303" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:44:43.303" endtime="20211126 15:44:44.303"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_button_restartGame</arg>
+<arg>Restart Game</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:44:44.318" level="INFO">Element 'id=id_button_restartGame' contains text 'Restart Game'.</msg>
+<status status="PASS" starttime="20211126 15:44:44.304" endtime="20211126 15:44:44.319"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_restartGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:44.319" level="INFO">Clicking element 'id=id_button_restartGame'.</msg>
+<status status="PASS" starttime="20211126 15:44:44.319" endtime="20211126 15:44:44.342"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<arg>Start Game</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:44:44.358" level="INFO">Element 'id=id_button_startGame' contains text 'Start Game'.</msg>
+<status status="PASS" starttime="20211126 15:44:44.342" endtime="20211126 15:44:44.358"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:45.359" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:44:44.358" endtime="20211126 15:44:45.359"/>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211126 15:44:45.359" endtime="20211126 15:44:53.692"/>
+</kw>
+<status status="PASS" starttime="20211126 15:44:43.257" endtime="20211126 15:44:53.693"/>
+</test>
+<test id="s1-t5" name="Test Function: have players more than 6 (use enter to input name)">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:53.695" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:53.695" endtime="20211126 15:44:54.789"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:54.790" level="INFO">Typing text 'player1' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:54.790" endtime="20211126 15:44:54.835"/>
+</kw>
+<kw name="Press Keys" library="Selenium2Library">
+<arg>//*[contains(text(),'Submit')]</arg>
+<arg>Enter</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20211126 15:44:54.836" level="INFO">Sending key(s) ('Enter',) to //*[contains(text(),'Submit')] element.</msg>
+<msg timestamp="20211126 15:44:55.156" level="INFO">Sending keys Enter</msg>
+<status status="PASS" starttime="20211126 15:44:54.836" endtime="20211126 15:44:55.162"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>960</arg>
+<arg>0</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:44:55.163" endtime="20211126 15:44:55.269"/>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<arg>960</arg>
+<arg>540</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20211126 15:44:55.269" endtime="20211126 15:44:55.380"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:56.382" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:44:55.381" endtime="20211126 15:44:56.382"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:56.383" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:56.382" endtime="20211126 15:44:57.460"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:57.461" level="INFO">Typing text 'player2' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:57.461" endtime="20211126 15:44:57.496"/>
+</kw>
+<kw name="Press Keys" library="Selenium2Library">
+<arg>//*[contains(text(),'Submit')]</arg>
+<arg>Enter</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20211126 15:44:57.497" level="INFO">Sending key(s) ('Enter',) to //*[contains(text(),'Submit')] element.</msg>
+<msg timestamp="20211126 15:44:57.825" level="INFO">Sending keys Enter</msg>
+<status status="PASS" starttime="20211126 15:44:57.497" endtime="20211126 15:44:57.831"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:44:58.832" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:44:57.831" endtime="20211126 15:44:58.832"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:44:58.833" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:44:58.833" endtime="20211126 15:44:59.917"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player3</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:44:59.918" level="INFO">Typing text 'player3' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:44:59.918" endtime="20211126 15:44:59.956"/>
+</kw>
+<kw name="Press Keys" library="Selenium2Library">
+<arg>//*[contains(text(),'Submit')]</arg>
+<arg>Enter</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20211126 15:44:59.957" level="INFO">Sending key(s) ('Enter',) to //*[contains(text(),'Submit')] element.</msg>
+<msg timestamp="20211126 15:45:00.280" level="INFO">Sending keys Enter</msg>
+<status status="PASS" starttime="20211126 15:44:59.957" endtime="20211126 15:45:00.296"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:01.298" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:00.297" endtime="20211126 15:45:01.298"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:45:01.299" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:45:01.298" endtime="20211126 15:45:02.413"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player4</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:02.414" level="INFO">Typing text 'player4' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:45:02.414" endtime="20211126 15:45:02.451"/>
+</kw>
+<kw name="Press Keys" library="Selenium2Library">
+<arg>//*[contains(text(),'Submit')]</arg>
+<arg>Enter</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20211126 15:45:02.451" level="INFO">Sending key(s) ('Enter',) to //*[contains(text(),'Submit')] element.</msg>
+<msg timestamp="20211126 15:45:02.771" level="INFO">Sending keys Enter</msg>
+<status status="PASS" starttime="20211126 15:45:02.451" endtime="20211126 15:45:02.778"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:03.780" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:02.779" endtime="20211126 15:45:03.780"/>
+</kw>
+<status status="PASS" starttime="20211126 15:44:53.694" endtime="20211126 15:45:03.780"/>
+</test>
+<test id="s1-t6" name="Test Function: have players more than 6 (use click on &quot;Submit&quot; button to input name)">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:45:03.782" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:45:03.782" endtime="20211126 15:45:04.879"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player5</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:04.881" level="INFO">Typing text 'player5' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:45:04.880" endtime="20211126 15:45:04.930"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:04.931" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:45:04.930" endtime="20211126 15:45:04.952"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:05.953" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:04.952" endtime="20211126 15:45:05.953"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:45:05.954" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:45:05.954" endtime="20211126 15:45:07.101"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player6</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:07.103" level="INFO">Typing text 'player6' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:45:07.102" endtime="20211126 15:45:07.141"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:07.142" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:45:07.141" endtime="20211126 15:45:07.167"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:08.168" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:07.167" endtime="20211126 15:45:08.168"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:45:08.168" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:45:08.168" endtime="20211126 15:45:09.346"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player7</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:09.347" level="INFO">Typing text 'player7' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:45:09.346" endtime="20211126 15:45:09.388"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:09.389" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:45:09.388" endtime="20211126 15:45:09.413"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:11.414" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:09.413" endtime="20211126 15:45:11.414"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:11.415" endtime="20211126 15:45:11.415"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:11.415" level="INFO">Clicking element 'id=id_button_startGame'.</msg>
+<status status="PASS" starttime="20211126 15:45:11.415" endtime="20211126 15:45:11.448"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:14.450" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:11.448" endtime="20211126 15:45:14.450"/>
+</kw>
+<kw name="Alert Should Be Present" library="Selenium2Library">
+<arg>Player count must be between 2 - 6 players</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<msg timestamp="20211126 15:45:14.450" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20211126 15:45:14.450" endtime="20211126 15:45:14.454"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:03.781" endtime="20211126 15:45:14.454"/>
+</test>
+<test id="s1-t7" name="Test Function: Showing &quot;Host disconnected...&quot;, when host disconnect before start game">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211126 15:45:14.456" endtime="20211126 15:45:16.543"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:16.544" endtime="20211126 15:45:16.545"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>Host disconnected</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:45:16.551" level="INFO">Current page contains text 'Host disconnected'.</msg>
+<status status="PASS" starttime="20211126 15:45:16.545" endtime="20211126 15:45:16.551"/>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211126 15:45:16.552" endtime="20211126 15:45:28.987"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:14.455" endtime="20211126 15:45:28.988"/>
+</test>
+<test id="s1-t8" name="Test Fucntion: enter name, open gamerules">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:45:28.990" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:45:28.990" endtime="20211126 15:45:30.148"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:30.149" level="INFO">Typing text 'player1' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:45:30.148" endtime="20211126 15:45:30.180"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:30.181" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:45:30.181" endtime="20211126 15:45:30.201"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:32.203" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:30.202" endtime="20211126 15:45:32.203"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_playerName</arg>
+<arg>player1</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:32.216" level="INFO">Element 'id=id_text_playerName' contains text 'player1'.</msg>
+<status status="PASS" starttime="20211126 15:45:32.203" endtime="20211126 15:45:32.216"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>//*[contains(text(),'Game Rules')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:32.216" level="INFO">Clicking element '//*[contains(text(),'Game Rules')]'.</msg>
+<status status="PASS" starttime="20211126 15:45:32.216" endtime="20211126 15:45:32.242"/>
+</kw>
+<kw name="Element Should Be Visible" library="Selenium2Library">
+<arg>class=gameRuleItems</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20211126 15:45:32.255" level="INFO">Element 'class=gameRuleItems' is displayed.</msg>
+<status status="PASS" starttime="20211126 15:45:32.243" endtime="20211126 15:45:32.255"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:34.257" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:32.256" endtime="20211126 15:45:34.257"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>//*[contains(text(),'Close')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:34.258" level="INFO">Clicking element '//*[contains(text(),'Close')]'.</msg>
+<status status="PASS" starttime="20211126 15:45:34.257" endtime="20211126 15:45:34.284"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:28.989" endtime="20211126 15:45:34.285"/>
+</test>
+<test id="s1-t9" name="Test Function: startgame with 1 player">
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:34.287" level="INFO">Clicking element 'id=id_button_startGame'.</msg>
+<status status="PASS" starttime="20211126 15:45:34.287" endtime="20211126 15:45:34.313"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:36.314" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:34.314" endtime="20211126 15:45:36.314"/>
+</kw>
+<kw name="Alert Should Be Present" library="Selenium2Library">
+<arg>Player count must be between 2 - 6 players</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<msg timestamp="20211126 15:45:36.315" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20211126 15:45:36.315" endtime="20211126 15:45:36.318"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:34.286" endtime="20211126 15:45:36.319"/>
+</test>
+<test id="s1-t10" name="Test Function: startgame with 2 players">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:45:36.321" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:45:36.320" endtime="20211126 15:45:37.427"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:37.427" endtime="20211126 15:45:37.427"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:37.428" level="INFO">Typing text 'player2' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:45:37.428" endtime="20211126 15:45:37.460"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_submitUsername</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:37.461" level="INFO">Clicking element 'id=id_button_submitUsername'.</msg>
+<status status="PASS" starttime="20211126 15:45:37.461" endtime="20211126 15:45:37.483"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>960</arg>
+<arg>0</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:45:37.483" endtime="20211126 15:45:37.588"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:39.589" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:37.589" endtime="20211126 15:45:39.589"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_playerName</arg>
+<arg>player2</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:39.606" level="INFO">Element 'id=id_text_playerName' contains text 'player2'.</msg>
+<status status="PASS" starttime="20211126 15:45:39.590" endtime="20211126 15:45:39.606"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:39.606" endtime="20211126 15:45:39.606"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:39.607" level="INFO">Clicking element 'id=id_button_startGame'.</msg>
+<status status="PASS" starttime="20211126 15:45:39.606" endtime="20211126 15:45:39.623"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_playerWallet</arg>
+<arg>1000</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:39.723" level="INFO">Element 'id=id_text_playerWallet' contains text '1000'.</msg>
+<status status="PASS" starttime="20211126 15:45:39.623" endtime="20211126 15:45:39.723"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:36.320" endtime="20211126 15:45:39.724"/>
+</test>
+<test id="s1-t11" name="Test Action: player2 Check">
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:39.725" endtime="20211126 15:45:39.725"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_playerWallet</arg>
+<arg>1000</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:39.738" level="INFO">Element 'id=id_text_playerWallet' contains text '1000'.</msg>
+<status status="PASS" starttime="20211126 15:45:39.726" endtime="20211126 15:45:39.738"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_check</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:39.738" level="INFO">Clicking element 'id=id_button_check'.</msg>
+<status status="PASS" starttime="20211126 15:45:39.738" endtime="20211126 15:45:39.760"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:41.761" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:39.760" endtime="20211126 15:45:41.761"/>
+</kw>
+<kw name="Alert Should Be Present" library="Selenium2Library">
+<arg>You cannot check, you need to call or raise</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<msg timestamp="20211126 15:45:41.761" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20211126 15:45:41.761" endtime="20211126 15:45:41.764"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>None</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:41.765" endtime="20211126 15:45:41.800"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:39.725" endtime="20211126 15:45:41.801"/>
+</test>
+<test id="s1-t12" name="Test Action: player2 Call, player1 Call and check">
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_call</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:41.803" level="INFO">Clicking element 'id=id_button_call'.</msg>
+<status status="PASS" starttime="20211126 15:45:41.802" endtime="20211126 15:45:41.835"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>Call</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:41.836" endtime="20211126 15:45:41.869"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:41.869" endtime="20211126 15:45:41.870"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_call</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:41.870" level="INFO">Clicking element 'id=id_button_call'.</msg>
+<status status="PASS" starttime="20211126 15:45:41.870" endtime="20211126 15:45:41.894"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:43.896" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:41.895" endtime="20211126 15:45:43.896"/>
+</kw>
+<kw name="Alert Should Be Present" library="Selenium2Library">
+<arg>You need to check (not call).</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<msg timestamp="20211126 15:45:43.897" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20211126 15:45:43.897" endtime="20211126 15:45:43.899"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>None</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:43.899" endtime="20211126 15:45:43.926"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_check</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:43.927" level="INFO">Clicking element 'id=id_button_check'.</msg>
+<status status="PASS" starttime="20211126 15:45:43.927" endtime="20211126 15:45:43.948"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>Check</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:43.948" endtime="20211126 15:45:43.972"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:41.802" endtime="20211126 15:45:43.973"/>
+</test>
+<test id="s1-t13" name="Test Action: player2 Raise, player1 Call">
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:43.975" endtime="20211126 15:45:43.975"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_raiseValue</arg>
+<arg>150</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:43.975" level="INFO">Typing text '150' into text field 'id=id_input_raiseValue'.</msg>
+<status status="PASS" starttime="20211126 15:45:43.975" endtime="20211126 15:45:44.017"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:46.018" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:44.017" endtime="20211126 15:45:46.018"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_raise</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:46.019" level="INFO">Clicking element 'id=id_button_raise'.</msg>
+<status status="PASS" starttime="20211126 15:45:46.019" endtime="20211126 15:45:46.046"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>150</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.047" endtime="20211126 15:45:46.069"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>Raise</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.070" endtime="20211126 15:45:46.091"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.091" endtime="20211126 15:45:46.092"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_call</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:46.093" level="INFO">Clicking element 'id=id_button_call'.</msg>
+<status status="PASS" starttime="20211126 15:45:46.093" endtime="20211126 15:45:46.112"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>150</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.112" endtime="20211126 15:45:46.138"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>Call</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.139" endtime="20211126 15:45:46.157"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:43.974" endtime="20211126 15:45:46.157"/>
+</test>
+<test id="s1-t14" name="Test Action: player2 All in, player1 Fold">
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.159" endtime="20211126 15:45:46.159"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_allIn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:46.160" level="INFO">Clicking element 'id=id_button_allIn'.</msg>
+<status status="PASS" starttime="20211126 15:45:46.160" endtime="20211126 15:45:46.182"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>1000</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.183" endtime="20211126 15:45:46.200"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>All-In</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:46.200" endtime="20211126 15:45:46.219"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:48.220" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:46.220" endtime="20211126 15:45:48.220"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:48.220" endtime="20211126 15:45:48.220"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_fold</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:48.221" level="INFO">Clicking element 'id=id_button_fold'.</msg>
+<status status="PASS" starttime="20211126 15:45:48.221" endtime="20211126 15:45:48.249"/>
+</kw>
+<kw name="Table Should Contain" library="Selenium2Library">
+<arg>id=id_list_status</arg>
+<arg>Fold</arg>
+<doc>Verifies table contains text ``expected``.</doc>
+<status status="PASS" starttime="20211126 15:45:48.249" endtime="20211126 15:45:48.298"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:50.299" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:48.298" endtime="20211126 15:45:50.299"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_winner_playerno</arg>
+<arg>2</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:50.315" level="INFO">Element 'id=id_text_winner_playerno' contains text '2'.</msg>
+<status status="PASS" starttime="20211126 15:45:50.300" endtime="20211126 15:45:50.315"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>The game is ended.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:45:50.325" level="INFO">Current page contains text 'The game is ended.'.</msg>
+<status status="PASS" starttime="20211126 15:45:50.316" endtime="20211126 15:45:50.325"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:46.158" endtime="20211126 15:45:50.326"/>
+</test>
+<test id="s1-t15" name="Test Function: check player's wallet (money transfer function)">
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_playerWallet</arg>
+<arg>850</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:50.332" level="INFO">Element 'id=id_text_playerWallet' contains text '850'.</msg>
+<status status="PASS" starttime="20211126 15:45:50.327" endtime="20211126 15:45:50.332"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:50.332" endtime="20211126 15:45:50.333"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_text_playerWallet</arg>
+<arg>1150</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:50.340" level="INFO">Element 'id=id_text_playerWallet' contains text '1150'.</msg>
+<status status="PASS" starttime="20211126 15:45:50.333" endtime="20211126 15:45:50.340"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:55.341" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211126 15:45:50.340" endtime="20211126 15:45:55.341"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:50.326" endtime="20211126 15:45:55.341"/>
+</test>
+<test id="s1-t16" name="Test Function: Restart game, showing &quot;Start game&quot; button">
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:45:55.343" endtime="20211126 15:45:55.343"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_restartGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:55.343" level="INFO">Clicking element 'id=id_button_restartGame'.</msg>
+<status status="PASS" starttime="20211126 15:45:55.343" endtime="20211126 15:45:55.369"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:56.371" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:55.369" endtime="20211126 15:45:56.371"/>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<arg>Start Game</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20211126 15:45:56.384" level="INFO">Element 'id=id_button_startGame' contains text 'Start Game'.</msg>
+<status status="PASS" starttime="20211126 15:45:56.371" endtime="20211126 15:45:56.384"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:57.385" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:56.385" endtime="20211126 15:45:57.385"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:55.342" endtime="20211126 15:45:57.386"/>
+</test>
+<test id="s1-t17" name="Test Function: Check that game can start again">
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:45:57.387" level="INFO">Clicking element 'id=id_button_startGame'.</msg>
+<status status="PASS" starttime="20211126 15:45:57.387" endtime="20211126 15:45:57.404"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:58.406" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:57.405" endtime="20211126 15:45:58.406"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>Waiting for other players</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:45:58.415" level="INFO">Current page contains text 'Waiting for other players'.</msg>
+<status status="PASS" starttime="20211126 15:45:58.407" endtime="20211126 15:45:58.415"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:45:59.416" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:45:58.415" endtime="20211126 15:45:59.416"/>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211126 15:45:59.417" endtime="20211126 15:46:03.578"/>
+</kw>
+<status status="PASS" starttime="20211126 15:45:57.387" endtime="20211126 15:46:03.579"/>
+</test>
+<test id="s1-t18" name="Test Function: Host disconnected between game">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:46:03.580" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:46:03.580" endtime="20211126 15:46:04.746"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:46:04.747" level="INFO">Typing text 'player1' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:46:04.746" endtime="20211126 15:46:04.785"/>
+</kw>
+<kw name="Press Keys" library="Selenium2Library">
+<arg>//*[contains(text(),'Submit')]</arg>
+<arg>Enter</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20211126 15:46:04.787" level="INFO">Sending key(s) ('Enter',) to //*[contains(text(),'Submit')] element.</msg>
+<msg timestamp="20211126 15:46:05.099" level="INFO">Sending keys Enter</msg>
+<status status="PASS" starttime="20211126 15:46:04.786" endtime="20211126 15:46:05.104"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>0</arg>
+<arg>0</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:46:05.104" endtime="20211126 15:46:05.209"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211126 15:46:05.210" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5000/'.</msg>
+<status status="PASS" starttime="20211126 15:46:05.209" endtime="20211126 15:46:06.383"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>id=id_input_username</arg>
+<arg>player2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211126 15:46:06.383" level="INFO">Typing text 'player2' into text field 'id=id_input_username'.</msg>
+<status status="PASS" starttime="20211126 15:46:06.383" endtime="20211126 15:46:06.425"/>
+</kw>
+<kw name="Press Keys" library="Selenium2Library">
+<arg>//*[contains(text(),'Submit')]</arg>
+<arg>Enter</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20211126 15:46:06.426" level="INFO">Sending key(s) ('Enter',) to //*[contains(text(),'Submit')] element.</msg>
+<msg timestamp="20211126 15:46:06.748" level="INFO">Sending keys Enter</msg>
+<status status="PASS" starttime="20211126 15:46:06.426" endtime="20211126 15:46:06.754"/>
+</kw>
+<kw name="Set Window Position" library="Selenium2Library">
+<arg>960</arg>
+<arg>0</arg>
+<doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
+<status status="PASS" starttime="20211126 15:46:06.754" endtime="20211126 15:46:06.860"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:46:07.861" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20211126 15:46:06.860" endtime="20211126 15:46:07.861"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:46:07.861" endtime="20211126 15:46:07.861"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_startGame</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:46:07.862" level="INFO">Clicking element 'id=id_button_startGame'.</msg>
+<status status="PASS" starttime="20211126 15:46:07.862" endtime="20211126 15:46:07.884"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:46:09.886" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:46:07.884" endtime="20211126 15:46:09.886"/>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211126 15:46:09.886" endtime="20211126 15:46:11.965"/>
+</kw>
+<kw name="Switch Browser" library="Selenium2Library">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" starttime="20211126 15:46:11.966" endtime="20211126 15:46:11.966"/>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<arg>id=id_button_allIn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211126 15:46:11.966" level="INFO">Clicking element 'id=id_button_allIn'.</msg>
+<status status="PASS" starttime="20211126 15:46:11.966" endtime="20211126 15:46:11.987"/>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<arg>The game is ended. (Host has left, everyone should leave the game)</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20211126 15:46:12.001" level="INFO">Current page contains text 'The game is ended. (Host has left, everyone should leave the game)'.</msg>
+<status status="PASS" starttime="20211126 15:46:11.988" endtime="20211126 15:46:12.001"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211126 15:46:14.002" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211126 15:46:12.002" endtime="20211126 15:46:14.002"/>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211126 15:46:14.003" endtime="20211126 15:46:16.077"/>
+</kw>
+<status status="PASS" starttime="20211126 15:46:03.579" endtime="20211126 15:46:16.078"/>
+</test>
+<status status="PASS" starttime="20211126 15:44:29.313" endtime="20211126 15:46:16.079"/>
+</suite>
+<statistics>
+<total>
+<stat pass="18" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="18" fail="0" skip="0" id="s1" name="Testcase">Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
